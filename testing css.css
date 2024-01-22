@@ -1,0 +1,179 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #FFEBEB;
+    font-family: 'Monospace';
+}
+
+.mainbox {
+    width: 500px;
+    height: 300px;
+    border: 2px;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px 2px rgb(202, 208, 212);
+    background-color: #fcfdfd;
+}
+
+.maintext {
+    color: hsl(0, 40%, 80%);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    user-select:none;
+
+}
+
+.textbox {
+    width: 275px;
+    height: 75px;
+    border: 2px solid #000000;
+    margin: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;
+    left:  35%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
+    /* Fully transparent */
+    font-size: 50px;
+    text-align: center;
+    color: hsl(0, 60%, 70%);
+    background-color: linear-gradient(to right, #ff8c00,#ff2d55);
+}
+
+.textbox:focus{
+    outline:none
+}
+
+.submitbutton{
+    width: 150px;
+    height: 50px;
+    border: 2px;
+    margin: 10px;
+    position: absolute;
+    border-radius: 30px;
+    top: 66%;
+    left: 65%;
+    background: hsl(0, 40%, 80%);
+    text-align: center;
+    line-height: 50px !important;
+    color: hsl(0, 60%, 70%);
+    user-select: none;
+    font: 30px sans-serif;
+    text-decoration: none;
+}

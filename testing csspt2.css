@@ -1,0 +1,181 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #FFEBEB;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.boxposition {
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    background-color: hsl(0, 40%, 90%);
+    border-radius: 50px;
+    text-align: center;
+    margin: 35vh auto 20px auto;
+    user-select: none;
+    z-index: -1;
+    font: 50px;
+}
+
+.yesposition, .noposition {
+    width: 100px;
+    height: 50px;
+    border: 15px;
+    background-color: hsl(0, 40%, 80%);
+    border-radius: 30px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    line-height: 50px; /* Equal to the height of the element */
+}
+
+.yesposition {
+    left: 40%;
+    z-index: 2;
+}
+
+.noposition {
+    left: 52%;
+    z-index: 3;
+}
+
+/* Media query for larger screen sizes (minimize the effect) */
+@media screen and (min-width: 800px) {
+    .yesposition, .noposition {
+        transition: left 0.5s ease, top 0.5s ease, height 0.5s ease; /* Add transitions for left, top, and height properties */
+    }
+}
+.text
+{
+    line-height: 15px;
+    user-select: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100; /* Ensure a higher z-index */
+}
+
+.overlay .happy {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.show-text .happy {
+    display: block;
+}
